@@ -9,20 +9,15 @@ pigpio python3-pigpio raspi-gpio python3-rpi.gpio
 python3-spidev
 python3-smbus2
 avahi-daemon
-lua5.1
-luajit
 ca-certificates curl
 fake-hwclock nfs-common usbutils
 dosfstools
 dphys-swapfile
 raspberrypi-sys-mods
-pi-bluetooth
 apt-listchanges
 usb-modeswitch
 libpam-chksshpwd
 rpi-update
-libmtp-runtime
-rsync
 htop
 man-db
 policykit-1
