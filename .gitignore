@@ -1,9 +1,12 @@
+.DS_Store
 deploy/*
 work/*
-#config
+config
 postrun.sh
 #SKIP
 #SKIP_IMAGES
 .pc
 *-pc
 apt-cacher-ng/
+node_modules/
+build/

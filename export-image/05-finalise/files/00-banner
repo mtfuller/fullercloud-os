@@ -1,0 +1,20 @@
+#!/bin/sh
+
+BLUE_BEGIN="$(tput -T linux setaf 6)"
+BLUE_END="$(tput -T linux sgr0)"
+
+echo ""
+echo "    ${BLUE_BEGIN} __ ${BLUE_END}"
+echo " ${BLUE_BEGIN} __/  \__ ${BLUE_END}     ______     _ _            _____ _                 _ ${BLUE_BEGIN} ____   _____ ${BLUE_END}"
+echo "${BLUE_BEGIN} /  \__/  \ ${BLUE_END}   |  ____|   | | |          / ____| |               | |${BLUE_BEGIN}/ __ \ / ____|${BLUE_END}"
+echo "${BLUE_BEGIN} \__/  \__/ ${BLUE_END}   | |__ _   _| | | ___ _ __| |    | | ___  _   _  __| |${BLUE_BEGIN} |  | | (___  ${BLUE_END}"
+echo "${BLUE_BEGIN} /  \__/  \ ${BLUE_END}   |  __| | | | | |/ _ \ '__| |    | |/ _ \| | | |/ _' |${BLUE_BEGIN} |  | |\___ \ ${BLUE_END}"
+echo "${BLUE_BEGIN} \__/  \__/ ${BLUE_END}   | |  | |_| | | |  __/ |  | |____| | (_) | |_| | (_| |${BLUE_BEGIN} |__| |____) |${BLUE_END}"
+echo "   ${BLUE_BEGIN} \__/ ${BLUE_END}      |_|   \__,_|_|_|\___|_|   \_____|_|\___/ \__,_|\__,_|${BLUE_BEGIN}\____/|_____/ ${BLUE_END}"
+echo "${BLUE_END}"
+echo ""
+echo "You have successfully logged into a provisioned FullerCloud node."
+echo ""
+echo "This node is configured with one usable account (fc-admin) that is"
+echo "used for setup and administrative tasks."
+echo ""

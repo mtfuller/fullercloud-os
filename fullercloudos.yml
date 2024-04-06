@@ -1,0 +1,8 @@
+fullercloud-os:
+  machines:
+    - name: FullerCloud RPI 1
+      hostname: pi-1
+    - name: FullerCloud RPI 2
+      hostname: pi-2
+    - name: FullerCloud RPI 3
+      hostname: pi-3

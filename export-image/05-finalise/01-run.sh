@@ -61,6 +61,8 @@ if ! [ -L "${ROOTFS_DIR}/boot/issue.txt" ]; then
 	ln -s firmware/issue.txt "${ROOTFS_DIR}/boot/issue.txt"
 fi
 
+cp "files/00-banner" "$ROOTFS_DIR/etc/update-motd.d/00-banner"
+chmod +x "$ROOTFS_DIR/etc/update-motd.d/00-banner"
 
 cp "$ROOTFS_DIR/etc/rpi-issue" "$INFO_FILE"
 
